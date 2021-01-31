@@ -19,6 +19,8 @@ matrix.fill(0)
 col = 0
 row = 0
 
+
+
 while True:
 
     # illuminate a column one LED at a time
@@ -29,7 +31,7 @@ while True:
 
     # next row when previous column is full
     if row < row_max:
-        row += 1
+        row += 2
         col = 0
 
     # clear matrix, start over
